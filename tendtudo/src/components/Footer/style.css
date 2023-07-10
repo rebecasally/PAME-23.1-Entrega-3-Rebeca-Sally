@@ -1,0 +1,13 @@
+.Footer {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  min-height: 200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(172, 0, 0);
+  color: #fff;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+}

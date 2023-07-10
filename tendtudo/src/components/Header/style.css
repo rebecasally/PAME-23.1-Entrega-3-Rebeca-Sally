@@ -1,0 +1,20 @@
+.Header {
+  width: 100vw;
+  height: 35vh;
+  top: 0;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  position: sticky;
+  background-color: rgb(224, 224, 224);
+}
+
+.titulo {
+  font-family: "Intro", sans-serif;
+  left: 25px;
+  color: rgb(76, 76, 76);
+  font-size: 30px;
+  font-weight: bold;
+}

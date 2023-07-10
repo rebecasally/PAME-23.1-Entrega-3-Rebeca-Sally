@@ -1,0 +1,7 @@
+.barra {
+  display: flex;
+  width: 75vw;
+  height: 7vh;
+  margin: 10px;
+  background-color: rgb(193, 193, 193);
+}
