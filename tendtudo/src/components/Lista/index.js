@@ -8,9 +8,9 @@ function index() {
     <div className="Lista">
       <Categoria label="Categoria 1">
         <Produto
-          imagem1={"./img/1.avif"}
-          imagem2={"./img/1.avif"}
-          imagem3={"./img/1.avif"}
+          imagem1={"/public/img/1.avif"}
+          imagem2={"/public/img/1.avif"}
+          imagem3={"/public/img/1.avif"}
           nome1={"Produto 1"}
           nome2={"Produto 2"}
           nome3={"Produto 3"}
