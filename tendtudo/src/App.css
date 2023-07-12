@@ -1,6 +1,7 @@
 .App {
-  width: 100vw;
-  height: 100vh;
+  min-width: 100%;
+  width: fit-content;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,12 +11,13 @@
 }
 
 .corpo {
-  width: 80vw;
+  width: 80%;
   height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 65vh;
-  margin-bottom: 70px;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
   background-color: rgb(255, 255, 255);
+  overflow: auto;
 }

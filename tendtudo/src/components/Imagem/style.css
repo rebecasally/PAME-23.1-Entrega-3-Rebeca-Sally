@@ -1,0 +1,11 @@
+.Imagem {
+  width: 100%;
+  height: 83vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/istockphoto-1146258987-2048x2048.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}

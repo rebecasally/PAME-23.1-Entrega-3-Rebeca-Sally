@@ -1,0 +1,17 @@
+.Input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0.2em solid rgb(8, 0, 128);
+  background: rgb(251, 251, 251);
+  padding: 0.85em 0.8em;
+  color: rgb(8, 0, 128);
+  border-radius: 2em;
+  box-shadow: 2px 3px 3px #b4b4b4;
+}

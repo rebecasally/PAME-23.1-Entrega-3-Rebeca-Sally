@@ -1,0 +1,7 @@
+.Busca {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 5%;
+}

@@ -1,12 +1,19 @@
 import React from "react";
 import "./style.css";
+import { useState } from "react";
 
-function index() {
+const Collapsible = (props) => {
+  const [open, setOPen] = useState(false);
+  const toggle = () => {
+    setOPen(!open);
+  };
+
   return (
-    <div>
-      <div className="barra">Categoria</div>
+    <div className="Categoria">
+      <button onClick={toggle}>{props.label}</button>
+      {open && <div className="toggle">{props.children}</div>}
     </div>
   );
-}
+};
 
-export default index;
+export default Collapsible;
