@@ -1,4 +1,5 @@
 .menus {
+  margin-left: -50px;
   display: flex;
   align-items: center;
   list-style: none;

@@ -21,7 +21,7 @@ function index({
   return (
     <div className="Produto">
       <div className="container">
-        <img src={{ imagem1 }} alt="" />
+        <img src={imagem1} alt="" />
         <h1 className="nome-produto">{nome1}</h1>
         <h1 className="descricao">
           {material1}, {tamanho1}
@@ -29,7 +29,7 @@ function index({
         <h1 className="preco"> R${preco1}</h1>
       </div>
       <div className="container">
-        <img src={{ imagem2 }} alt="" />
+        <img src={imagem2} alt="" />
         <h1 className="nome-produto">{nome2}</h1>
         <h1 className="descricao">
           {material2}, {tamanho2}
@@ -37,7 +37,7 @@ function index({
         <h1 className="preco"> R${preco2}</h1>
       </div>
       <div className="container">
-        <img src={{ imagem3 }} alt="" />
+        <img src={imagem3} alt="" />
         <h1 className="nome-produto">{nome3}</h1>
         <h1 className="descricao">
           {material3}, {tamanho3}

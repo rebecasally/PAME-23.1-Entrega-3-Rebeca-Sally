@@ -9,7 +9,7 @@ button span {
 }
 
 .menu-items a:hover {
-  background-color: #14007b;
+  background-color: #075e94;
 }
 
 .arrow::after {
@@ -34,7 +34,7 @@ button span {
   min-width: 10rem;
   padding: 0.5rem 0;
   list-style: none;
-  background-color: #fff;
+  background-color: #ededed;
   border-radius: 0.5rem;
   display: none;
 }

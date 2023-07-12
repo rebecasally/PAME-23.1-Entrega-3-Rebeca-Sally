@@ -6,9 +6,22 @@ function index() {
     <div className="Footer">
       <div className="info">
         <li>
-          <ul className="nome-info">Endereço</ul>
-          <ul>Rua Central, Rio de Janeiro - RJ N° 2</ul>
-          <ul className="nome-info">Email</ul>
+          <ul className="nome-info">Caxias</ul>
+          <ul>Rua Central n° 0 , CEP: 12345-67</ul>
+          <ul className="nome-info">
+            <br></br>Belford Roxo
+          </ul>
+          <ul>Rua Central n° 0 , CEP: 12345-67</ul>
+          <ul className="nome-info">
+            <br></br>Nova Iguaçu
+          </ul>
+          <ul>Rua Central n° 0 , CEP: 12345-67</ul>
+        </li>
+      </div>
+      <div className="contato">
+        <li>
+          <ul className="nome-info">Contato</ul>
+          <ul>+55 21 99000-0000</ul>
           <ul>email@gmail.com</ul>
         </li>
       </div>

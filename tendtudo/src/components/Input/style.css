@@ -8,15 +8,19 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 0.2em solid rgb(8, 0, 128);
+  border: 0.2em solid #075e94;
   background: rgb(251, 251, 251);
   padding: 0.85em 0.8em;
-  color: rgb(8, 0, 128);
+  color: #075e94;
   border-radius: 2em;
   box-shadow: 2px 3px 10px #dddddd;
 }
 
 .input[type="text"]:hover,
 .input[type="text"]:focus {
-  border: 0.2em solid rgb(203, 0, 0);
+  border: 0.2em solid #e00000;
+}
+
+.input[type="text"]:focus {
+  outline: none;
 }
