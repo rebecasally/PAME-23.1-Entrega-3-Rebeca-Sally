@@ -1,7 +1,9 @@
 .Header {
+  top: 0;
+  position: -webkit-sticky;
   width: fit-content;
   min-width: 100%;
-  height: 17vh;
+  height: 13vh;
   display: flex;
   min-height: 100px;
   align-items: center;
@@ -9,14 +11,14 @@
   gap: 40px;
   flex-direction: row;
   position: sticky;
-  background-color: rgb(224, 224, 224);
-  font-family: "Manrope", sans-serif;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px #dddddd;
 }
 
 .titulo {
   font-family: "Intro", sans-serif;
   margin-left: 25px;
-  color: rgb(218, 0, 0);
+  color: rgb(255, 0, 0);
   font-size: 40px;
   font-weight: bold;
 }

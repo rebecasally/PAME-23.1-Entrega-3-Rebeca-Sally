@@ -13,5 +13,10 @@
   padding: 0.85em 0.8em;
   color: rgb(8, 0, 128);
   border-radius: 2em;
-  box-shadow: 2px 3px 3px #b4b4b4;
+  box-shadow: 2px 3px 10px #dddddd;
+}
+
+.input[type="text"]:hover,
+.input[type="text"]:focus {
+  border: 0.2em solid rgb(203, 0, 0);
 }

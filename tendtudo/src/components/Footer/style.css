@@ -6,11 +6,65 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 30px;
   flex-direction: row;
   position: relative;
   background-color: rgb(172, 0, 0);
   color: #fff;
   font-size: 20px;
   font-family: "Manrope", sans-serif;
+}
+
+.socials {
+  margin-right: -15vw;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.socials li {
+  list-style-type: none;
+  appearance: none;
+}
+
+.socials ul {
+  display: flex;
+  list-style-type: none;
+  appearance: none;
+}
+
+.socials ul img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.socials ul a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  appearance: none;
+  text-decoration: none;
+}
+
+.info {
+  margin-left: -20vw;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  list-style-type: none;
+}
+
+.nome-info {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
